@@ -124,7 +124,7 @@ class RasterizationSettings:
     image_size: Union[int, Tuple[int, int]] = (1280, 720)
     blur_radius: float = 0.0
     faces_per_pixel: int = 1
-    bin_size: Optional[int] = None
+    bin_size: Optional[int] = 0
     max_faces_opengl: int = 20_000_000
     max_faces_per_bin: Optional[int] = None
     perspective_correct: Optional[bool] = None
